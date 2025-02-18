@@ -33,5 +33,37 @@ Installing devDependencies:
 - @types/react
 - @types/react-dom
 
+### Instalação do tailwindcss
+
+npm install tailwindcss @tailwindcss/postcss postcss
+
+criar na raiz do projeto: postcss.config.mjs
+
+Colocar no arquivo:
+
+const config = {
+
+  plugins: {
+
+    "@tailwindcss/postcss": {},
+
+  },
+
+};
+
+export default config;
+
+Na raiz do projeto "locals.css":
+
+@import "tailwindcss";
+
+No layout.tsx    -   importar o locals.css
+
+No VScode, instalar as extensões:
+
+TailwindCSS IntelliSense e PostCSS Language Support. Este último para construção do theme.
+
+
+
 
 

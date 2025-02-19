@@ -6,4 +6,10 @@
 
   --font-heading: var(--font-oxanium);
   --font-sans: var(--font-montserrat);
+
+  --color-gray-100: #dae4f2;
+  --color-gray-900: #0f1216;
+
+  --font-heading: var(--font-oxanium);
+  --font-heading: var(--font-montserrat);
 }

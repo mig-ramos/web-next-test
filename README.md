@@ -70,5 +70,7 @@ TailwindCSS IntelliSense e PostCSS Language Support. Este último para construç
   --color-blue: #6f9de2;
 }
 
+Na className=" antialiased "  Deixa a font melhor nos navegadores chrome
+
 
 

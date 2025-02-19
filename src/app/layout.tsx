@@ -31,7 +31,7 @@ export default function RootLayout({
       lang="pt-BR"
       className={`${oxitanium.variable} ${montserrat.variable}`}
     >
-      <body>{children}</body>
+      <body className="bg-gray-900 text-gray-100 antialiased">{children}</body>
     </html>
   );
 }

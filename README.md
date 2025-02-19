@@ -63,7 +63,12 @@ No VScode, instalar as extensões:
 
 TailwindCSS IntelliSense e PostCSS Language Support. Este último para construção do theme.
 
+@theme {
 
+    --color-*: initial; Faz com que não tenha mais as cores do tailwind só estas
+
+  --color-blue: #6f9de2;
+}
 
 
 

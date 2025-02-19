@@ -1,1 +1,9 @@
 @import "tailwindcss";
+
+@theme {
+  --color-*: initial;
+  --color-blue: #6f9de2;
+
+  --font-heading: var(--font-oxanium);
+  --font-sans: var(--font-montserrat);
+}
